@@ -1,0 +1,154 @@
+*{
+      margin: 0%;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+nav img
+{
+      width: 80%;
+}
+
+
+nav 
+{
+      width: 100%;
+      height: 50%;
+}
+
+nav div ul li > img
+{
+      width: 60%;
+      padding: 0.2em;
+}
+
+nav div ul > li
+{
+      width: 100%;
+      text-align: center;
+}
+
+NAV ul
+{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 1.5em;
+      font-family: 'Limelight', cursive;
+      align-items: flex-end;
+      justify-content: space-between;
+      list-style-type: none;
+      background-color: #ffc600
+}
+
+#nove {
+      background-color: #f1f1f1;
+} 
+
+#onze {
+      background-color: #f1f1f1;
+}
+
+#banner
+{
+      background-image: url("../img/audience.jpg");
+      height: 400px;
+      filter: opacity(80%);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+}
+
+.text
+{
+      color: white;
+}
+
+
+.container {
+      position: relative;
+      width: 50%;
+      display: flex;
+      justify-content: flex-start;
+}
+
+.btn {
+      position: absolute;
+      top: 80%;
+      left: 42.5%;
+      background-color: #7D0093;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      display: flex;
+      justify-content: flex-end;
+}
+    
+.btn:hover {
+      background-color: #555;
+}
+
+.banner2 {
+      display: flex;
+      justify-content: space-evenly;
+}
+
+/*************************************************************SOBRE NÓS********************************************************************************************/
+.flex{
+      display: flex;
+}
+#alexandre{ 
+      width: 800px;
+      align-items: flex-start;
+}
+.alex{
+      width: 100%;
+      height: 400px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+
+}
+
+.w3-container{
+      width: 500px;
+}
+.w3-container > img {
+      width: 50%;
+      border-radius: 2em;
+}
+
+.sobre {
+      width: 100px;
+      height: 50px;
+      
+}
+
+div.SN h3{
+      color: #7D0093;
+    justify-content: center;
+    display: flex;
+}
+
+#cesar{
+      width: 800px;
+      align-items: flex-start;
+}
+
+.cesar{
+      width: 100%;
+      height: 400px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+
+}
+
+.sobre2 {
+      width: 100px;
+      height: 50px;
+      
+}
