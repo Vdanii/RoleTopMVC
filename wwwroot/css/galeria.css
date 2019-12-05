@@ -4,6 +4,10 @@
       box-sizing: border-box;
 }
 
+h1 {
+      margin: 10px 0 10px 0;
+}
+
 nav img{
       width: 80%;
 }
@@ -36,34 +40,44 @@ NAV ul{
       background-color: #ffc600
 }
 
+
 .container img {
-    width:  1568px;;
-    height: 529px;
-    margin-left: 9%
+      width: 300px;
+      height: 200px;
 }
 
+.container {
+      background-color: rgb(255, 255, 0);
+      filter: opacity(40%);
+      width: 1000px;
+      height: 200px;
+      margin-top: -50px;
+      z-index: -1;
+}
+
+#felix {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      font-size: 2em;
+      padding: 50px;
+}
 
 #ambiente  h1  {
       color: #7D0093;
-      justify-content: center;
-      display: flex;
+}
+
+#bannerBaixa img {
+      width: 500px;
+      height: 300px;
 }
 
 #bannerBaixa h1 {
       color: rgb(255, 230, 0);
-      justify-content: center;
-      display: flex;
 }
 
-.container img {
-      align-items: center;
-      width: 50%;
-      margin-left: 25%;
-}
-
-img  {
-    width: 1560px;
-    height: 622;
-    margin-left: 9%
-
+.container1 img {
+      width: 1200px;
+      height: 250px;
 }

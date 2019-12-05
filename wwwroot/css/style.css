@@ -53,7 +53,7 @@ NAV ul
 {
       background-image: url("../img/audience.jpg");
       height: 400px;
-      filter: opacity(80%);
+      filter: opacity(45%);
       background-size: cover;
       background-position: center;
       display: flex;
@@ -61,16 +61,27 @@ NAV ul
 
 .text
 {
-      color: white;
+      color: black;
+      font-size: 1.5em;
+      font-weight: bolder;
 }
 
+h1 {
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+}
 
 .container {
       position: relative;
       width: 50%;
       display: flex;
       justify-content: flex-start;
-}
+}     
 
 .btn {
       position: absolute;
@@ -85,8 +96,9 @@ NAV ul
       border-radius: 5px;
       display: flex;
       justify-content: flex-end;
+      margin-top: -6.3em;
 }
-    
+
 .btn:hover {
       background-color: #555;
 }
@@ -96,59 +108,4 @@ NAV ul
       justify-content: space-evenly;
 }
 
-/*************************************************************SOBRE NÓS********************************************************************************************/
-.flex{
-      display: flex;
-}
-#alexandre{ 
-      width: 800px;
-      align-items: flex-start;
-}
-.alex{
-      width: 100%;
-      height: 400px;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
 
-}
-
-.w3-container{
-      width: 500px;
-}
-.w3-container > img {
-      width: 50%;
-      border-radius: 2em;
-}
-
-.sobre {
-      width: 100px;
-      height: 50px;
-      
-}
-
-div.SN h3{
-      color: #7D0093;
-    justify-content: center;
-    display: flex;
-}
-
-#cesar{
-      width: 800px;
-      align-items: flex-start;
-}
-
-.cesar{
-      width: 100%;
-      height: 400px;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
-
-}
-
-.sobre2 {
-      width: 100px;
-      height: 50px;
-      
-}

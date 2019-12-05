@@ -14344,18 +14344,28 @@
   "RootNamespace": "RoleTopMVC",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\LocalizeNos\\Index3.cshtml",
+      "TargetPath": "Views\\LocalizeNos\\Index3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Cadastro\\Index4.cshtml",
+      "TargetPath": "Views\\Cadastro\\Index4.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\SobreNos\\Index1.cshtml",
+      "TargetPath": "Views\\SobreNos\\Index1.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14366,6 +14376,26 @@
     {
       "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\FAQ\\Index2.cshtml",
+      "TargetPath": "Views\\FAQ\\Index2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Login\\Index5.cshtml",
+      "TargetPath": "Views\\Login\\Index5.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Cliente\\Index6.cshtml",
+      "TargetPath": "Views\\Cliente\\Index6.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\RoleTopMVC\\Views\\Galeria\\Index.cshtml",
+      "TargetPath": "Views\\Galeria\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
