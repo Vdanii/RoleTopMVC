@@ -10,7 +10,14 @@
                         </span>
                         
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Valid email is required: ex@abc.xyz">
-                            <input class="input100" type="text" name="email" placeholder="Pacote que deseja">
+                            
+                            <select  name="pacote" required> 
+                                    <option value=""> Selecione um Pacote </option>
+                                <option value="Padrão"> Padrão </option>
+                                 <option value="Simples"> Simples </option>
+                                  <option value="Gold"> Gold </option>
+                                   <option value="Extra"> Extra </option>
+                            </select>
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">
                                 <span class="lnr lnr-envelope"></span>
@@ -18,7 +25,7 @@
                         </div>
                         
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Valid email is required: ex@abc.xyz">
-                            <input class="input100" type="text" name="email" placeholder="Data do Role">
+                            <input class="input100" type="date" name="email" placeholder="Data do Role">
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">
                                 <span class="lnr lnr-envelope"></span>
@@ -26,7 +33,13 @@
                         </div>
                         
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
-                            <input class="input100" type="text" name="CPF ou CNPJ" placeholder="Gênero">
+                            
+                            <select  name="Genero" required> 
+                                    <option value=""> Tipo do seu RoleTop </option>
+                                <option value="Balada"> Balada </option>
+                                 <option value="Casamento"> Casamento </option>
+                                  <option value="Festa de Aniversario"> Festa de Aniversário </option>
+                                   <option value="Outro"> Outro </option>
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">
                                 <span class="lnr lnr-envelope"></span>
@@ -34,6 +47,7 @@
                         </div>
                         
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
+                            
                             <input class="input100" type="text" name="celular" placeholder="Observações">
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">

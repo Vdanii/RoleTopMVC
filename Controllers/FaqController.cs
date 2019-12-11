@@ -1,13 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.ViewsModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class FaqController: Controller
+    public class FaqController: AbstractController
     {
         public IActionResult Index2()
         {
-            ViewData["NomeView"] = "FAQ";
-            return View();
+            
+            return View(new BaseViewModel()
+            {
+                NomeView = "FAQ",
+                NomeView2 = "Nav1"
+            });
         }
         public IActionResult Privacy()
         {

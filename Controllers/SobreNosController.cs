@@ -1,12 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.ViewsModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class SobreNosController : Controller
+    public class SobreNosController : AbstractController
     {
         public IActionResult Index1() {
-            ViewData["NomeView"] = "SobreNos";
-            return View();
+
+            return View(new BaseViewModel()
+            {
+                NomeView = "SobreNos",
+                NomeView2 = "Nav1"
+            });
         }
     }
 }

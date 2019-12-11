@@ -3,13 +3,13 @@
 	<div class="limiter">
             <div class="container-Cadastro100">
                 <div class="wrap-Cadastro100 p-l-50 p-r-50 p-t-77 p-b-30">
-                    <form class="Cadastro100-form validate-form">
+                    <form method="POST" action='@Url.Action("Cadastrar" , "Cadastro")' class="Cadastro100-form validate-form">
                         <span class="Cadastro100-form-title p-b-55">
                             Cadastro
                         </span>
     
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Valid email is required: ex@abc.xyz">
-                            <input class="input100" type="text" name="email" placeholder="Nome Completo">
+                            <input class="input100" type="text" name="nome" placeholder="Nome Completo">
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">
                                 <span class="lnr lnr-envelope"></span>
@@ -28,7 +28,7 @@
                             <input class="input100" type="text" name="CPF ou CNPJ" placeholder="CPF ou CNPJ">
                             <span class="focus-input100"></span>
                             <span class="symbol-input100">
-                               <span class="lnr lnr-envelope"></span>
+                            <span class="lnr lnr-envelope"></span>
                             </span>
                         </div>
 
@@ -41,14 +41,14 @@
                         </div>
 
                         <div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
-                                <input class="input100" type="password" name="config" placeholder="Confirmação de código">
+                                <input class="input100" type="password" name="senha" placeholder="Crie uma senha">
                                 <span class="focus-input100"></span>
                                 <span class="symbol-input100">
                                     <span class="lnr lnr-lock"></span>
                                 </span>
                         </div>
                         <div class="container-Cadasrto100-form-btn p-t-25">
-                            <button class="Cadastro100-form-btn">
+                            <button type="submit" class="Cadastro100-form-btn">
                                 Cadastrar-se 
                             </button>
                         </div>

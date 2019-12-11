@@ -1,13 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.ViewsModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class ClienteController : Controller
+    public class ClienteController : AbstractController
     {
         public IActionResult Index6()
         {
-            ViewData["NomeView"] = "Cliente";
-            return View();
+            
+            return View (new BaseViewModel()
+            {
+                UsuarioEmail = ObterUsuarioSession() ,
+                UsuarioNome = ObterUsuarioNomeSession(),
+                NomeView = "Cliente",
+                NomeView2 = "Nav2"
+            });
         }
         public IActionResult Privacy()
         {

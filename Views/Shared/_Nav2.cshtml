@@ -1,0 +1,16 @@
+<div class="flex nav-home">
+    <div class="logohome">
+        <a asp-controller="Home" asp-action="Index"><img src="~/img/logo.jpg.png" id="logo"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Agenda" asp-action="Index0">Agenda</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="FAQ" asp-action="Index2">FAQ</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Galeria" asp-action="Index">Galeria</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="LocalizeNos" asp-action="Index3">Localize-nos</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="SobreNos" asp-action="Index1">SobreNos</a></li>
+             <li> @Model.UsuarioNome</li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Home" asp-action="Index">Logoff</a></li>
+        </ul>
+    </nav>

@@ -1,6 +1,4 @@
-﻿@{
-    var nomeView = (string) ViewData["NomeView"];
-}
+﻿@model RoleTopMVC.ViewsModels.BaseViewModel
 
 <!DOCTYPE html>
 <html lang="br/pt">
@@ -11,67 +9,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RoleTop</title>
+    <link rel="stylesheet" type="text/css" href="~/css/nav.css">
     <!-- colocar css -->
-    @if("Home".Equals(nomeView))
+    @if("Home".Equals(Model.NomeView))
     {
-        <link rel="stylesheet" type="text/css" href="~/css/style.css">
+        <link rel="stylesheet" type="text/css" href="~/css/style.css">   
+        
     }
-    @if("Galeria".Equals(nomeView))
+    @if("Galeria".Equals(Model.NomeView))
     {
-        <link rel="stylesheet" type="text/css" href="~/css/galeria.css">
+        <link rel="stylesheet" type="text/css" href="~/css/galeria.css">  
+
     }
-    @if("SobreNos".Equals(nomeView))
+    @if("SobreNos".Equals(Model.NomeView))
     {
         <link rel="stylesheet" type="text/css" href="~/css/sobreNos.css">
     }
-    @if("FAQ".Equals(nomeView))
+    @if("FAQ".Equals(Model.NomeView))
     {
-        <link rel="stylesheet" type="text/css" href="~/css/FAQ.css">
+        <link rel="stylesheet" type="text/css" href="~/css/FAQ.css"> 
     }
-    @if("LocalizeNos".Equals(nomeView))
+    @if("LocalizeNos".Equals(Model.NomeView))
     {
         <link rel="stylesheet" type="text/css" href="~/css/localize.css">
     }
-    @if("Cadastro".Equals(nomeView))
+    @if("Cadastro".Equals(Model.NomeView))
     {
         <link rel="stylesheet" type="text/css" href="~/css/cadastro.css">
         <link rel="stylesheet" type="text/css" href="~/css/util.css">
     }
-    @if("Login".Equals(nomeView))
+    @if("Login".Equals(Model.NomeView))
     {
         <link rel="stylesheet" type="text/css" href="~/css/login.css">
         <link rel="stylesheet" type="text/css" href="~/css/util.css">
     }
-    @if("Cliente".Equals(nomeView))
+    @if("Cliente".Equals(Model.NomeView))
     {
         <link rel="stylesheet" type="text/css" href="~/css/logado.css">
+        <link rel="stylesheet" type="text/css" href="~/css/util.css">
     }
+    @if("Agenda".Equals(Model.NomeView))
+    {
+        <link rel="stylesheet" type="text/css" href="~/css/agenda.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+        <link src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+        <link src="https://code.jquery.com/jquery-3.3.1.min.js">
+    }
+    @if("Logadissimo".Equals(Model.NomeView))
+    {
+        <link rel="stylesheet" type="text/css" href="~/css/nav2.css">
+    }
+    @if("Dashboard".Equals(@Model.NomeView))
+    {
+       
+        <link href="~/css/dashboard.css" rel="stylesheet" type="text/css">
+    }
+
+    
 
 
 </head>
 
 
-    <header>
+    <header >
+    @if ("Nav1".Equals(Model.NomeView2))
+    {
+        Html.RenderPartial("_NavPrincipal");
+    }
 
-        <nav>
-            <div class="text.n">
+    @if("Nav2".Equals(Model.NomeView2))
+    {
+        Html.RenderPartial("_Nav2");
+    }
 
-                <ul>
-                    <li> <a asp-controller="Home" asp-action="Index"><img src="~/img/logo.jpg.png" id="logo"></a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Galeria" asp-action="Index">Galeria</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="SobreNos" asp-action="Index1">SobreNos</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="FAQ" asp-action="Index2">FAQ</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="LocalizeNos" asp-action="Index3">Localize-nos</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Cadastro"asp-action="Index4">Cadastro</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" asp-controller="Login" asp-action="Index5">Login</a></li>
-                    
-                </ul>
-
-            </div>
-        </nav>
     </header>
 
 @RenderBody()
 
-
-    </html>
+</html>

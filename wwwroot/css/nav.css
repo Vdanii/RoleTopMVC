@@ -1,0 +1,75 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    background-color: #ffc600;
+}
+
+.nav-home
+{
+    justify-content: space-between;
+    align-items: center;
+}
+.flex
+{
+    display: flex;
+}
+.logohome
+{
+    background-color: #ffc600;
+    width: 200px;
+    height: 50%;
+}
+nav ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: black; 
+    border-radius: 10px ;
+    padding: 0.4em; 
+}
+nav ul > li > .sob:hover{
+    background-color: #7D0093;
+    color: white;
+}
+
+
+
+
+.logohome img
+{
+    width: 80%;
+}
+
+nav 
+{
+    width: 70%;
+    height: 50%;
+}
+
+
+
+nav div ul > li
+{
+    width: 100%;
+
+    text-align: center;
+}
+
+NAV ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    font-family: 'Limelight', cursive;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #ffc600
+}

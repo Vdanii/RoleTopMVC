@@ -1,13 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.ViewsModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class GaleriaController : Controller
+    public class GaleriaController : AbstractController
     {
         public IActionResult Index()
         {
-            ViewData["NomeView"] = "Galeria";
-            return View();
+            
+            return View(new BaseViewModel()
+            {
+                NomeView = "Galeria",
+                NomeView2 = "Nav1"
+            });
         }
 
         public IActionResult Privacy()

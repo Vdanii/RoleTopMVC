@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RoleTopMVC.Models;
+using RoleTopMVC.ViewsModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : AbstractController
     {
         public IActionResult Index()
         {
-            ViewData["NomeView"] = "Home";
-            return View();
+            
+            return View(new BaseViewModel()
+            {
+                NomeView = "Home",
+                NomeView2 = "Nav1"
+            });
         }
 
         public IActionResult Privacy()

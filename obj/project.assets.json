@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\RoleTopMVC\\RoleTopMVC.csproj",
       "projectName": "RoleTopMVC",
-      "projectPath": "C:\\Users\\User\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\RoleTopMVC\\RoleTopMVC.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\RoleTopMVC\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\RoleTopMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
